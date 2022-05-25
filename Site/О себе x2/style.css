@@ -1,0 +1,338 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+.upper {
+    text-transform: uppercase;
+    color: black;
+}
+.container {
+    background-color: #e8e7e7;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid #0d418c;
+    border-top: 2px solid #0d418c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    display: block;
+    width: 945px;
+    margin: 0 auto;
+    height: 110px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.daminov {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.name {
+    padding-top: 5px;
+    padding-left: 30px;
+    color: #0d418c;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.search {
+    margin-right: 60px;
+    margin-top: 40px;
+    height: 21px;
+    float: right;
+    background-color: #e8e7e7;
+}
+
+.floatsearch {
+    float: right;
+}
+
+.navigation {
+    width: 820px;
+    margin: 0 auto;
+    height: 42px;
+    background-color: #e8e7e7;
+    justify-content: center;
+    display: flex;
+}
+
+.nav {
+    margin: 0 auto;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-left: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.firstcontent {
+    height: 360px;
+    width: 945px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.images {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.image {
+    width: 400px;
+
+}
+.button {
+    border: 2px solid #255195;
+    width: 260px;
+    height: 30px;
+    border-radius: 40px;
+    padding-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.textbutton {
+    color: #255195;
+}
+.whoiam {
+    text-transform: uppercase;
+    color: black;
+}
+.skills dd {
+    margin: 0;
+}
+.dt {
+    display: block;
+}
+.pillar {  
+    text-align: right;
+    color: white;
+    background-color: black;
+    height: 5px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.secondcontent {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 945px;
+    margin: 0 auto;
+    background-color: #e8e7e7;
+}
+.textblock {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: #e8e7e7;
+}
+.seccon {
+    padding-top: 40px;
+}
+.textup {
+    padding-top: 15px;
+}
+.td2 {
+    padding-top: 22px;
+}
+.textdown {
+    padding-top: 25px;
+}
+footer {
+    border-radius: 15px;
+    height: 50px;
+    width: 945px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.foottext {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 18px;
+    float: left;
+}
+
+.foottext2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0;
+    float: right;
+    padding-top: 18px;
+    padding-right: 50px;
+}
+.fsr {
+    padding-right: 41px;
+}
+.fsr2 {
+    padding-left: 40px;
+}
+
+
+
+@media (max-width: 960px) {
+    .head {
+        width: 660px;
+        min-width: 400px;
+    }
+
+    .search {
+        margin-top: 44px;
+        margin-right: 20px;
+    }
+
+    .navigation {
+        width: 660px;
+    }
+
+    .nav {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .firstcontent {
+        height: 800px;
+        width: 660px;
+    }
+
+    .secondcontent {
+        height: 800px;
+        width: 660px;
+    }
+
+    footer {
+        height: 50px;
+        width: 660px;
+    }
+
+    .image {
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+    .text {
+        padding-top: 50px;
+        width: 300px;
+    }
+    .whoiam {
+        text-align: center;
+    }
+    .button {
+        margin: 0 auto;
+    }
+    .textwho {
+        text-align: center;
+    }
+    .zag {
+        text-align: center;
+    }
+    .skills {
+        padding-top: 40px;
+    }
+    .fsr {
+        padding-right: 0px;
+    }
+
+    .fsr2 {
+        padding-left: 0px;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .head {
+        width: 400px;
+        height: 180px;
+        min-width: 400px;
+    }
+
+    .name {
+        padding-left: 20px;
+    }
+
+    .search {
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+
+    .navigation {
+        width: 360px;
+    }
+
+    .nav {
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .firstcontent {
+        height: 1000px;
+        width: 400px;
+    }
+
+    .secondcontent {
+        height: 1000px;
+        width: 400px;
+    }
+
+    footer {
+        height: 80px;
+        width: 400px;
+    }
+    .foottext {
+        padding-left: 85px;
+    }
+
+    .foottext2 {
+        padding-right: 125px;
+    }
+    .image {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .whoiam {
+        text-align: center;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+    .textwho {
+        text-align: center;
+    }
+    .zag {
+        text-align: center;
+    }
+    .skills {
+        padding-top: 40px;
+    }
+    .fsr {
+        padding-right: 0px;
+    }
+
+    .fsr2 {
+        padding-left: 0px;
+    }
+}
